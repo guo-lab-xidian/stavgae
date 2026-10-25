@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- IDE ----
+.idea/
+.vscode/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Data (do NOT commit large ST data) ----
+*.mtx
+*.h5ad
+*.csv
+*.tsv
+*.npy
+*.npz
+*.loom
+*.rds
+*.RData
+data/
+Data/
+
+# ---- Outputs / logs / weights ----
+*.log
+log_*.txt
+*_log.txt
+*.pt
+*.pth
+*.ckpt
+result/
+results/
+output/
+outputs/
+figures/
